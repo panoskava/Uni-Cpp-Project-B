@@ -14,6 +14,7 @@ protected:
 public:
     // Constructor declaration
     LibraryItem(const std::string &code, const std::string &title);
+    virtual ~LibraryItem() = default;
 
     // Method declarations
     void show() const;
