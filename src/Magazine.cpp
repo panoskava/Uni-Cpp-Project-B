@@ -1,7 +1,6 @@
 #include "../include/Magazine.h"
 #include <iostream>
 #include <string>
-#include "Magazine.h"
 
 // Constructor for Magazine class
 Magazine::Magazine(const std::string &code, const std::string &title, int issueNumber, int month) : LibraryItem(code, title), issueNumber(issueNumber), month(month) {}
