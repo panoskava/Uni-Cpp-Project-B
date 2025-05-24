@@ -10,7 +10,7 @@ Book::~Book() {}
 void Book::printInfo() const
 {
 
-    std::cout << "Code : " << code << "Book : " << title << std::endl;
+    std::cout << "Code : " << code << " Book : " << title << std::endl;
     std::cout << " Author: : " << author << "Pages: " << pages << std::endl;
     std::cout << "------------------------" << std::endl;
 }

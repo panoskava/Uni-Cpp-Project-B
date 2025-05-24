@@ -11,7 +11,7 @@ Magazine::~Magazine() {}
 // Virtual Method to print magazine information
 void Magazine::printInfo() const
 {
-    std::cout << "Code : " << code << "Magazine : " << title << std::endl;
+    std::cout << "Code : " << code << " Magazine : " << title << std::endl;
     std::cout << " Issue Number: : " << issueNumber << "Month: " << month << std::endl;
     std::cout << "------------------------" << std::endl;
 }
