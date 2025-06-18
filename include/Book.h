@@ -19,6 +19,8 @@ public:
     ~Book();
     // Method declarations
     void printInfo() const override;
+
+    static int totalpages; // προσθικη για εξαταση
 };
 
 #endif
