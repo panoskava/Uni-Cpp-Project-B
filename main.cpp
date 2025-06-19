@@ -20,6 +20,20 @@ int main()
         libItem->printInfo();
     }
 
+    std::cout << "------------------------" << std::endl;
+
+    // Αλλαγη για εξεταση
+    int minPages = 100; // Minimum number of pages to filter books
+    std::cout << "\nDisplaying books with more than " << minPages << " pages:" << std::endl;
+    for (LibraryItem *libItem : item)
+    {
+
+        if (libItem->getPages() > minPages)
+        {
+            libItem->printInfo();
+        }
+    }
+
     // Delete created items
     for (LibraryItem *libItem : item)
     {

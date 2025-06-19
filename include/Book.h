@@ -19,6 +19,7 @@ public:
     ~Book();
     // Method declarations
     void printInfo() const override;
+    int getPages() const override; // Αλλαγη για εξεταση
 };
 
 #endif

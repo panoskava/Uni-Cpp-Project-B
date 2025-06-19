@@ -19,6 +19,7 @@ public:
     // Method declarations
     void show() const;
     virtual void printInfo() const = 0;
+    virtual int getPages() const; // Αλλαγη για εξεταση
 };
 
 #endif

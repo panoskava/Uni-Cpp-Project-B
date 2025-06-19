@@ -14,3 +14,9 @@ void LibraryItem::show() const
 {
     std::cout << "Code: " << code << ", Title: " << title << std::endl;
 }
+
+// Αλλαγη για εξεταση
+int LibraryItem::getPages() const
+{
+    return 0; // Default implementation returns 0 pages
+}
