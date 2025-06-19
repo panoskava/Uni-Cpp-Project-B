@@ -6,6 +6,18 @@
 #include "include/Magazine.h"
 #include "include/Book.h"
 
+// Αλλαγη για εξεταση
+void calculateTotalPages(const std::vector<LibraryItem *> &items)
+{
+    int totalPages = 0;
+    for (const LibraryItem *libItem : items)
+    {
+        totalPages += libItem->getPages();
+    }
+
+    std::cout << "Total pages in the collection: " << totalPages << std::endl;
+}
+
 int main()
 {
     std::vector<LibraryItem *> item;
@@ -33,6 +45,8 @@ int main()
             libItem->printInfo();
         }
     }
+
+    calculateTotalPages(item); // Αλλαγη για εξεταση
 
     // Delete created items
     for (LibraryItem *libItem : item)
